@@ -1,0 +1,29 @@
+# This is a template .gitignore file for git-managed WordPress projects 
+# using Local by Flywheel.
+#
+# See the comments below for more info on how to add exceptions for your
+# content. Or see git's documentation for more info on .gitignore files:
+# http://kernel.org/pub/software/scm/git/docs/gitignore.html
+
+
+.DS_Store
+**/.DS_Store
+
+!.gitignore
+!README.md
+
+.DS_Storegit
+**/.DS_Store
+
+
+# Coverage directory used by tools like istanbul
+**/coverage
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+**/build/Release
+
+# Dependency directories
+**/node_modules/
+
+# Optional npm cache directory
+**/.npm
